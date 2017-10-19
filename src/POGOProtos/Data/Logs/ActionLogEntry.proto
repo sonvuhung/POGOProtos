@@ -5,7 +5,6 @@ import "POGOProtos/Data/Logs/CatchPokemonLogEntry.proto";
 import "POGOProtos/Data/Logs/FortSearchLogEntry.proto";
 import "POGOProtos/Data/Logs/BuddyPokemonLogEntry.proto";
 import "POGOProtos/Data/Logs/RaidRewardsLogEntry.proto";
-import "POGOProtos/Data/Logs/PasscodeRewardsLogEntry.proto";
 
 message ActionLogEntry {
 	int64 timestamp_ms = 1;
@@ -16,6 +15,5 @@ message ActionLogEntry {
 		.POGOProtos.Data.Logs.FortSearchLogEntry fort_search = 4;
 		.POGOProtos.Data.Logs.BuddyPokemonLogEntry buddy_pokemon = 5;
 		.POGOProtos.Data.Logs.RaidRewardsLogEntry raid_rewards = 6;
-		.POGOProtos.Data.Logs.PasscodeRewardsLogEntry passcode_rewards = 7;
 	}
 }
